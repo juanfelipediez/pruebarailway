@@ -1,0 +1,239 @@
+paths:
+  /api/products/:
+    get:
+      summary: Get list of products
+      tags: 
+        - Products
+      responses:
+        '200':
+          $ref: '#components/responses/200b'
+        '500':
+          $ref: '#components/responses/500'
+    post:
+      summary: Create new product
+      tags: 
+        - Products
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#components/schemas/Products'
+      responses:
+        '201':
+          $ref: '#components/responses/201'
+        '500':
+          $ref: '#components/responses/500'
+  /api/products/{pid}:
+    get:
+      summary: Get the a specific product information by id
+      tags: 
+        - Products
+      parameters:
+        - name: pid
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Product ID      
+      responses:
+        '200':
+          $ref: '#components/responses/200a'
+        '500':
+          $ref: '#components/responses/500'
+    put:
+      summary: Edit a product properties
+      tags: 
+        - Products
+      parameters:
+        - name: pid
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Product ID
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#components/schemas/Products'
+      responses:
+        '200':
+          $ref: '#components/responses/200a'
+        '500':
+          $ref: '#components/responses/500'
+    delete:
+      summary: Delete a specific product by id
+      tags: 
+        - Products
+      parameters:
+        - name: pid
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Product ID    
+      responses:
+        '200':
+          $ref: '#components/responses/200a'
+        '500':
+          $ref: '#components/responses/500'
+components:
+  schemas:
+    Products:
+      type: object
+      properties:
+        _id:
+          type: string
+          description: ID of the product
+          example: 672867adf765d7e1697f406f
+        title:
+          type: string
+          description: Title of the product
+          example: Seafood Paella
+        code:
+          type: string
+          description: Code of the product
+          example: S Pae
+        description:
+          type: string
+          description: Description of the product
+          example: Hearty goat milk and emu stew, slow-cooked with sesame seed and squash for a comforting, flavorful meal.
+        price:
+          type: number
+          description: Price of the product
+          example: 3500
+        status:
+          type: boolean
+          description: Status of the product
+          example: true
+        stock:
+          type: number
+          description: Stock of the product
+          example: 50
+        category:
+          type: string
+          description: Category of the product
+          example: Chinese
+        thumbnails:
+          type: string
+          description: Image of the product
+          example: https://avatars.githubusercontent.com/u/96764341
+      example:
+        _id: 672867adf765d7e1697f406f
+        title: Seafood Paella
+        code: S Pae
+        description: Hearty goat milk and emu stew, slow-cooked with sesame seed and squash for a comforting, flavorful meal.
+        price: 3500
+        status: true
+        stock: 50
+        category: Chinese
+        thumbnails: https://avatars.githubusercontent.com/u/96764341   
+  responses:
+    "201":
+      description: Successful product creation response
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              response:
+                type: object
+                description: Object with product properties
+                example: 
+                  $ref: '#components/schemas/ProdPucts/example'
+              message:
+                type: string
+                description: Message indicating product creation success
+                example: The product was successfully created
+            example:
+              response:
+                $ref: '#components/schemas/Products/example'
+              message: The product was successfully created
+    "200a":
+      description: Getting product information response
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              response:
+                type: object
+                description: Object with product properties
+                example: 
+                  $ref: '#components/schemas/Products/example'
+              message:
+                type: string
+                description: Message indicating getting product information success
+                example: Product information
+            example:
+              response:
+                $ref: '#components/schemas/Products/example'
+              message: Product information
+    "200b":
+      description: List of products
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              response:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Products'
+              message:
+                type: string
+                example: List of products retrieved successfully
+    "400":
+      description: Client error response
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              message:
+                type: string
+                description: Message of client error
+              statusCode:
+                type: integer
+                description: HTTP status code
+            example:
+              message: Client Error
+              statusCode: 400
+    "500":
+      description: Server error response
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              message:
+                type: string
+                description: Message of server error
+              statusCode:
+                type: integer
+                description: HTTP status code
+            example:
+              message: Server Error
+              statusCode: 500
+  requestBodies:
+    productInformation:
+      $ref: '#components/schemas/Products'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

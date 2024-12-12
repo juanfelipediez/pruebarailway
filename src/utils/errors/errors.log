@@ -1,0 +1,274 @@
+[31mfatal[39m: Cast to ObjectId failed for value "672867adf765d7e169f46" (type string) at path "_id" for model "Product"
+[33merror[39m: This search does not return any results
+[33merror[39m: POST /api/products/ - CLIENT ERROR
+[33merror[39m: POST /api/products/ - CLIENT ERROR
+[33merror[39m: POST /api/products/ - CLIENT ERROR
+[33merror[39m: GET /api/products/66cffb8223c3ac85120a0415 - THIS SEARCH DOES NOT RETURN ANY RESULTS
+[33merror[39m: POST /api/products/ - CLIENT ERROR
+[33merror[39m: Client Error
+[33merror[39m: Client Error
+[31mfatal[39m: errors is not defined
+[31mfatal[39m: CostumeError is not defined
+[31mfatal[39m: CostumeError is not defined
+[31mfatal[39m: CostumeError is not defined
+[33merror[39m: Client Error
+[31mfatal[39m: Cast to ObjectId failed for value "672867adf765d7e1697f406j" (type string) at path "_id" for model "Product"
+[33merror[39m: This search does not return any results
+[31mfatal[39m: fake is not defined
+[31mfatal[39m: E11000 duplicate key error collection: backend3-dev.users index: email_1 dup key: { email: "juanfelipediez11@gmail.com" }
+[31mfatal[39m: email is not defined
+[31mfatal[39m: email is not defined
+[31mfatal[39m: newUser is not defined
+[31mfatal[39m: req.clearCookie is not a function
+[31mfatal[39m: CostumeError is not defined
+[31mfatal[39m: req.clearCookie is not a function
+[31mfatal[39m: CostumeError is not defined
+[31mfatal[39m: req.clearCookie is not a function
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: req.clearCookie is not a function
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: req.clearCookie is not a function
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: req.clearCookie is not a function
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: req.clearCookie is not a function
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: req.clearCookie is not a function
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: req.clearCookie is not a function
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Client Error
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: req.clearCookie is not a function
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: req.clearCookie is not a function
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: req.clearCookie is not a function
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: Cannot set properties of undefined (setting 'quantity')
+[31mfatal[39m: Cannot set properties of undefined (setting 'quantity')
+[31mfatal[39m: Cannot set properties of undefined (setting 'quantity')
+[31mfatal[39m: Cannot set properties of undefined (setting 'quantity')
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: req.clearCookie is not a function
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: role is not defined
+[33merror[39m: Client Error
+[31mfatal[39m: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "Potffasfsdsdsdfsdaadsssato" }
+[33merror[39m: Client Error
+[31mfatal[39m: Cast to ObjectId failed for value "login-error" (type string) at path "_id" for model "Product"
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "Snowpea Sprouts Salad" }
+[31mfatal[39m: Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "Snowpea Sprouts Salad" }
+[31mfatal[39m: Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "Snowpea Sprouts Salad" }
+[31mfatal[39m: Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "Snowpea Sprouts Salad" }
+[31mfatal[39m: Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "Snowpea Sprouts Salad" }
+[31mfatal[39m: Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "Snowpea Sprouts Salad" }
+[31mfatal[39m: Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "Snowpea Sprouts Salad" }
+[31mfatal[39m: Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "Snowpea Sprouts Salads" }
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: Cannot read properties of undefined (reading 'push')
+[31mfatal[39m: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "Caesar Salad" }
+[31mfatal[39m: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "Caesar Salad" }
+[31mfatal[39m: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "Chicken Milanese" }
+[31mfatal[39m: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "Chicken Parm" }
+[31mfatal[39m: E11000 duplicate key error collection: backend3-dev.users index: email_1 dup key: { email: "aherzog@ecommerce.com" }
+[31mfatal[39m: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "Massaman Curry" }
+[31mfatal[39m: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "Caesar Salad" }
+[31mfatal[39m: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "Caesar Salad" }
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: E11000 duplicate key error collection: backend3-entregaFinal.products index: title_1 dup key: { title: "Chicken Wings" }
+[31mfatal[39m: E11000 duplicate key error collection: backend3-entregaFinal.products index: title_1 dup key: { title: "Barbecue Ribs" }
+[31mfatal[39m: E11000 duplicate key error collection: backend3-entregaFinal.products index: title_1 dup key: { title: "Bunny Chow" }
+[31mfatal[39m: E11000 duplicate key error collection: backend3-entregaFinal.products index: title_1 dup key: { title: "French Toast" }
+[31mfatal[39m: E11000 duplicate key error collection: backend3-entregaFinal.products index: title_1 dup key: { title: "Venison Steak" }
+[31mfatal[39m: E11000 duplicate key error collection: backend3-entregaFinal.products index: title_1 dup key: { title: "Cheeseburger" }
+[31mfatal[39m: E11000 duplicate key error collection: backend3-entregaFinal.products index: title_1 dup key: { title: "Massaman Curry" }
+[31mfatal[39m: E11000 duplicate key error collection: backend3-entregaFinal.products index: title_1 dup key: { title: "Arepas" }
+[31mfatal[39m: E11000 duplicate key error collection: backend3-entregaFinal.products index: title_1 dup key: { title: "Pork Belly Buns" }
+[31mfatal[39m: E11000 duplicate key error collection: backend3-entregaFinal.products index: title_1 dup key: { title: "Bunny Chow" }
+[31mfatal[39m: E11000 duplicate key error collection: backend3-entregaFinal.products index: title_1 dup key: { title: "Goose Steak" }
+[31mfatal[39m: E11000 duplicate key error collection: backend3-entregaFinal.products index: title_1 dup key: { title: "Pasta And Beans" }
+[31mfatal[39m: E11000 duplicate key error collection: backend3-entregaFinal.products index: title_1 dup key: { title: "Arepas" }
+[31mfatal[39m: E11000 duplicate key error collection: backend3-entregaFinal.products index: title_1 dup key: { title: "Massaman Curry" }
+[31mfatal[39m: E11000 duplicate key error collection: backend3-entregaFinal.products index: title_1 dup key: { title: "Chicken Wings" }
+[31mfatal[39m: E11000 duplicate key error collection: backend3-entregaFinal.products index: title_1 dup key: { title: "Mushroom Risotto" }
+[31mfatal[39m: E11000 duplicate key error collection: backend3-entregaFinal.products index: title_1 dup key: { title: "French Fries With Sausages" }
+[33merror[39m: Not Found
+[33merror[39m: Not Found
+[33merror[39m: Not Found
+[33merror[39m: Invalid Credentials
+[33merror[39m: Not Found
+[33merror[39m: Not Found
+[33merror[39m: Invalid Credentials
+[33merror[39m: Not Found
+[33merror[39m: Not Found
+[31mfatal[39m: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "Chicken Parm" }
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "Salmon Nigiri" }
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "Seafood Paella" }
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "California Maki" }
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "Stinky Tofu" }
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "Chilli Con Carne" }
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "Cheeseburger" }
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "Cheeseburger" }
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "Sushi" }
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "Chicken Parm" }
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Not Found
+[33merror[39m: Not Found
+[33merror[39m: Not Found
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: E11000 duplicate key error collection: backend3-dev.products index: title_1 dup key: { title: "Hummus" }
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Not Found
+[33merror[39m: Not Found
+[33merror[39m: Not Found
+[33merror[39m: Invalid Credentials
+[33merror[39m: Not Found
+[33merror[39m: Not Found
+[33merror[39m: Not Found
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: E11000 duplicate key error collection: backend3-entregaFinal.products index: title_1 dup key: { title: "Arepas" }
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: E11000 duplicate key error collection: backend3-entregaFinal.products index: title_1 dup key: { title: "Tuna Sashimi" }
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: E11000 duplicate key error collection: backend3-entregaFinal.products index: title_1 dup key: { title: "Kebab" }
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: E11000 duplicate key error collection: backend3-entregaFinal.products index: title_1 dup key: { title: "Kebab" }
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Not Found
+[33merror[39m: Not Found
+[33merror[39m: Not Found
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Not Found
+[33merror[39m: Not Found
+[33merror[39m: Not Found
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[31mfatal[39m: E11000 duplicate key error collection: backend3-entregaFinal.users index: email_1 dup key: { email: "bmcdermott@ecommerce.com" }
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials
+[33merror[39m: Invalid Credentials

@@ -1,0 +1,47 @@
+{
+  "name": "entregafinal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./scr/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js -m dev",
+    "chai-test": "mocha ./src/test/chai/ -m chai-test",
+    "supertest": "mocha ./src/test/supertest/ -m supertest"
+  },
+  "author": "Juan Felipe Diez",
+  "license": "ISC",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.5",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "chai": "^5.1.2",
+    "commander": "^12.1.0",
+    "connect-mongo": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "express-session": "^1.18.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mocha": "^11.0.1",
+    "mongoose": "^8.4.4",
+    "mongoose-paginate-v2": "^1.8.2",
+    "nodemailer": "^6.9.15",
+    "nodemon": "^3.1.1",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.7.5",
+    "supertest": "^7.0.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "uuid": "^10.0.0",
+    "winston": "^3.16.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@faker-js/faker": "^9.1.0"
+  }
+}

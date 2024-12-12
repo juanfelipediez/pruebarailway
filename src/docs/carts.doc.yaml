@@ -1,0 +1,339 @@
+paths:
+  /api/carts/:
+    post:
+      summary: Create a new cart
+      tags: 
+        - Carts
+      responses:
+        '201':
+          $ref: '#components/responses/201'
+        '500':
+          $ref: '#components/responses/500'
+  /api/carts/{cid}:
+    get:
+      summary: Get the a specific cart information by id
+      tags: 
+        - Carts
+      parameters:
+        - name: cid
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Cart ID      
+      responses:
+        '200':
+          $ref: '#components/responses/200a'
+        '500':
+          $ref: '#components/responses/500'
+    put:
+      summary: Edit a whole cart information by id
+      tags: 
+        - Carts
+      parameters:
+        - name: cid
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Cart ID
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#components/schemas/Carts'   
+      responses:
+        '200':
+          $ref: '#components/responses/200d'
+        '500':
+          $ref: '#components/responses/500'
+    delete:
+      summary: Delete all products of a specific cart by id
+      tags: 
+        - Carts
+      parameters:
+        - name: cid
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Cart ID    
+      responses:
+        '201':
+          $ref: '#components/responses/201d'
+        '500':
+          $ref: '#components/responses/500'
+  /api/carts/product/{pid}:
+    post:
+      summary: Add a product to a cart by the product id
+      tags: 
+        - Carts
+      parameters:
+        - name: pid
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Product ID
+      responses:
+        '200':
+          $ref: '#components/responses/200b'
+        '500':
+          $ref: '#components/responses/500'
+    delete:
+      summary: Delete a product in a cart by the product id
+      tags: 
+        - Carts
+      parameters:
+        - name: pid
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Product ID
+      responses:
+        '200':
+          $ref: '#components/responses/200d'
+        '500':
+          $ref: '#components/responses/500'
+  /api/carts/{cid}/product/{pid}:
+    put:
+      summary: Edit a product quantity in a specific cart
+      tags: 
+        - Carts
+      parameters:
+        - name: cid
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Cart ID
+        - name: pid
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Product ID
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#components/requestedBodies/newProductQuantity'
+      responses:
+        '200':
+          $ref: '#components/responses/200d'
+        '500':
+          $ref: '#components/responses/500'
+  /api/carts/purchase:
+    post:
+      summary: Create a purchase ticket
+      tags: 
+        - Carts
+      responses:
+        '200':
+          $ref: '#components/responses/200c'
+        '500':
+          $ref: '#components/responses/500'
+components:
+  schemas:
+    Carts:
+      type: object
+      properties:
+        includedProducts:
+          type: array
+          description: Array of objects in wich every element contains a product propertie and a quantity propertie
+          items: 
+            product:
+              type: string
+              description: ID of the product
+              example: "672867adf765d7e1697f406f"
+            quantity:
+              type: integer
+              description: Quantity of items
+              example: 2
+          example:
+              - product: "672867adf765d7e1697f4071"
+                quantity: 3
+              - product: "672867adf765d7e1697f406f"
+                quantity: 4
+      example:
+        includedProducts: 
+          - product: "672867adf765d7e1697f4071"
+            quantity: 3
+          - product: "672867adf765d7e1697f406f"
+            quantity: 4
+  responses:
+    "201":
+      description: Successful cart creation response
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              message:
+                type: string
+                description: Message indicating cart creation success
+            example:
+              message: A new cart was successfully created 
+    "200a":
+      description: Successful operation response
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              response:
+                type: object
+                description: Object with an array of the products in the cart
+            example:
+              response:
+                $ref: '#components/schemas/Carts/example'
+    "200b":
+      description: Successful operation response
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              response:
+                type: object
+                description: Object of the product added
+              message:
+                type: string
+                description: Message of added product in the cart
+            example:
+              response: 
+                _id: 672867adf765d7e1697f4071
+                title: Crocodile With Apricot Sauce
+                code: arwnbStwmR
+                description: A slow-roasted Black-browed Albatross with a tangy, fresh exterior. Stuffed with pineapple and covered in mulberry sauce. Sides with peas puree and wild red pepper.
+                price: 8648
+                status: true
+                stock: 12
+                category: Malaysian Chinese
+                thumbnails: https://avatars.githubusercontent.com/u/77081218
+              message: One item of the product was added to the cart
+    "200c":
+      description: Successful operation response
+      content:
+        application/json:
+          schema:
+            type: object
+            properties: 
+              ticket:
+                type: object
+                description: Object of the purchase ticket information 
+                example: 
+                  code: 4226dfe4-a12a-44f6-b1b4-27dc9edfd406
+                  purchase_datetime: 2024-09-03T08:12:51.964+00:00
+                  amount: 7000
+                  purchaser: ferrsomoza@gmail.com
+              products_without_stock:
+                type: array
+                description: Array with the list of products not included in the purchase because of lack of stock
+                items: 
+                  product:
+                    type: string
+                    description: Name of the product
+                    example: Paprika-rubbed Salmon Salad
+                  id:
+                    type: string
+                    description: ID of the product
+                    example: 672867f5e5c499472ebc422e
+            example:
+              ticket:
+              products_without_stock:
+                - product: Paprika-rubbed Salmon Salad
+                  id: 672867f5e5c499472ebc422e
+                - product: Vegetarian Pizza
+                  id: 66cffb8223c3ac85120a041a
+    "200d":
+      description: Successful operation response
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              message:
+                type: string
+                description: Message of cart operation
+            example: The operation was successfuly made
+    "400":
+      description: Client error response
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              message:
+                type: string
+                description: Message of client error
+              statusCode:
+                type: integer
+                description: HTTP status code
+            example:
+              message: Client Error
+              statusCode: 400
+    "404":
+      description: Not found response
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              message:
+                type: string
+                description: Message of not found
+              statusCode:
+                type: integer
+                description: HTTP status code
+            example:
+              message: Not Found
+              statusCode: 404
+    "500":
+      description: Server error response
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              message:
+                type: string
+                description: Message of server error
+              statusCode:
+                type: integer
+                description: HTTP status code
+            example:
+              message: Server Error
+              statusCode: 500
+  requestBodies:
+    newProductQuantity:
+      type: object
+      properties:
+        quantity:
+          type: number
+          description: New quantity of the product in the cart
+          example: 4
+      example:
+        quantity: 4
+    replacingCartInformation:
+      $ref: '#components/schemas/Carts'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
